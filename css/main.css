@@ -10,7 +10,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .2s linear;
     line-height: 1.5;
    }
@@ -126,7 +125,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 1.5rem;
-        background: rgb(245, 233, 233);
+        background: rgba(202, 201, 201, 0.971);
     }
 
     .home .image{
@@ -135,27 +134,29 @@
     }
     .home .image img{
         width:100%;
-        
+       
     }
     .home .content{
         flex:1 1 40rem;
     }
     .home .content .intro{
-        font-size: 2rem;
+        font-size: 3rem;
+        font-family: cursive;
         color: var(--text-gold-50);
     }
     .home .content h3{
         font-size: 2.5rem;
         color: #111;
-        text-transform: uppercase;
+      
     }
     .home .content h3 span{
-        font-size: 4.5rem;
+        font-size: 2rem;
         color: var(--text-gold-50);
-        text-transform: uppercase;
+        font-family:cursive;
     }
     .home .content .info{
         font-size: 2rem;
+        font-weight: 600;
         color: var(--text-black-1);
         padding: 2rem 0;
     }
@@ -172,6 +173,7 @@
         color: white;
         cursor: pointer;
         font-size: 1.7rem;
+        border-radius: 5rem;
     }
 
     .btn:hover{
@@ -205,12 +207,16 @@
 
 .about .row-1 .content h3{
     color: #333;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
-.about .row-1 .content{
+.about .row-1 .content p{
     color:#666;
     font-size: 1.7rem;
     padding: .5rem 0;
+}
+.about .row-1 .content p span{
+    font-size: 2rem;
+    font-weight: 700;
 }
 .about .row-1 .content .box-container{
     display:flex;
@@ -227,6 +233,7 @@ flex: 1 1 20rem;
     }
 
 .about .row-2{
+    
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -235,7 +242,7 @@ flex: 1 1 20rem;
 }
 .about .row-2 .skills{
     flex:1 1 40rem;
-    background: rgb(245, 233, 233);
+   
 }
 .about .row-2 .skills .progress{
     
@@ -282,6 +289,7 @@ flex: 1 1 20rem;
 }
 
 .about .row-2 .box-container {
+    
     flex:1 1 50rem;
     display: flex;
     flex-wrap: wrap;
@@ -296,18 +304,11 @@ flex: 1 1 20rem;
     box-shadow:  0 .5rem 1rem black;
 }
 .about .row-2 .box-container .box:last-child{
- background: #111;
+  
 }
-.about .row-2 .box-container .box:nth-child(5){
-    background: #111;
-    color: #ccc;
-   }
-.about .row-2 .box-container .box:nth-child(5) p{
-    color: #ccc;
-   }
-   .about .row-2 .box-container .box:nth-child(5) p{
-    color: #ccc;
-   }
+
+
+   
 .about .row-2 .box-container .box h3{
     color:var(--text-gold-50);
     font-size:2rem;
@@ -320,13 +321,13 @@ flex: 1 1 20rem;
 }
 
 .service .box-container{
+   
     display:flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     
 }
 .service .box-container .box{
-    
     flex: 1 1 30rem;
     text-align: center;
     padding: 2rem;
@@ -355,6 +356,9 @@ border-radius: 50%;
     padding-top: .5rem ;
 }
 /**experince**/
+
+.experience{  
+     background: rgba(242, 237, 237, 0.971);}
 
 .experience .box-container{
     display:flex;
@@ -413,7 +417,9 @@ border-radius: 50%;
     gap: 1.5rem;
 
 }
-
+.portfolio{
+    background: rgba(242, 237, 237, 0.971);
+}
 .portfolio .box-container .box{
     flex: 1 1 30rem;
     height: 25rem;
