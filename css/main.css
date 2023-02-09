@@ -57,12 +57,17 @@
 
    header .logo{
     text-transform: uppercase;
-    color: rgb(214, 204, 204);
-    font-size: 2.5rem;
+    text-shadow: 0 .5rem 1rem rgb(168, 157, 157);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(192, 173, 173);
+    font-size: 1.5rem;
     font-weight: bolder;
    }
    header .logo span{
-    
+    font-size: 2.5rem;
+    font-family:cursive;
+    font-style: oblique;
     text-transform: uppercase;
     color: #d17300;
    }
